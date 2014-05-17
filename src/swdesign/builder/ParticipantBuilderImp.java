@@ -13,6 +13,7 @@ import swdesign.tournament.ParticipantInfo;
 /**
  *
  * @author adamv_000
+ * @param <AIInstance>
  */
 public class ParticipantBuilderImp<AIInstance> implements IParticipantBuilder<AIInstance>{
 

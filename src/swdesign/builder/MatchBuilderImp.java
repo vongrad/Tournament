@@ -20,7 +20,7 @@ public class MatchBuilderImp implements IMatchBuilder{
     public MatchInfo[] buildMatches(ParticipantInfo[] participants) {
         
         MatchInfo[] matches = new MatchInfo[calculateSize(participants.length, 2)];
-        System.out.println("Length: " + matches.length);
+
         int index = 0;
         
         for (int i = 0; i < participants.length; i++) {
